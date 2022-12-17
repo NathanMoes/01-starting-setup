@@ -6,4 +6,9 @@ function ExpenseDate(props) {
         <div class="expense-date">
             <div class="expense-date__month">{month}</div>
             <div class="expense-date__day">{day}</div>
-            
+            <div class="expense-date__year">{year}</div>
+        </div>
+    );
+}
+
+export default ExpenseDate;
